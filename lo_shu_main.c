@@ -23,17 +23,16 @@ int main()
     }
     printMagicSq(testSucessOfSquare);
 
-    // Check and print the invalid square
-    /* printf("\nTesting invalid Lo Shu Magic Square:\n");
-     if (isLoShuMagic(failSquare))
-     {
-         printf("The square is a valid Lo Shu Magic Square!\n");
-     }
-     else
-     {
-         printf("The square is NOT a valid Lo Shu Magic Square.\n");
-     }
-     printMagicSq(failSquare);*/
+    printf("\nTesting invalid Lo Shu Magic Square:\n");
+    if (isLoShuMagic(failSquare))
+    {
+        printf("The square is a valid Lo Shu Magic Square!\n");
+    }
+    else
+    {
+        printf("The square is NOT a valid Lo Shu Magic Square.\n");
+    }
+    printMagicSq(failSquare);
 
     return 0;
 }
